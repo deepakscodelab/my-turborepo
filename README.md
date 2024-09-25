@@ -8,6 +8,8 @@ Run the following command:
 
 ```sh
 npx create-turbo@latest
+pnpm dlx create-turbo@latest
+pnpm dlx create-next-app@latest apps/promptopia
 ```
 
 ## What's inside?
@@ -48,6 +50,7 @@ To develop all apps and packages, run the following command:
 ```
 cd my-turborepo
 pnpm dev
+npx turbo run dev --filter promptopia
 ```
 
 ### Remote Caching
